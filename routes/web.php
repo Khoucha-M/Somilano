@@ -19,4 +19,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/Accueil', function () { return view('Accueil'); });
+Route::get('/accueil', function () { return view('accueil'); });
+
+Route::get('/vetement', function () { return view('vetement'); });
+
+Route::get('/nouveaute', function () { return view('nouveaute'); });
+
+Route::get('/chaussure', function () { return view('chaussure'); });
