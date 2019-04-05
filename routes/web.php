@@ -15,8 +15,14 @@ Auth::routes();
 
 Route::get('/', function () { return view('accueil'); });
 
-Route::get('/vetement', function () { return view('vetement'); });
+Route::get('/vetement', function () { return view('vetement'); })->name('vet');
 
-Route::get('/nouveaute', function () { return view('nouveaute'); });
+Route::get('/nouveaute', function () { return view('nouveaute'); })->name('nouv');
 
-Route::get('/chaussure', function () { return view('chaussure'); });
+Route::get('/chaussure', function () { return view('chaussure'); })->name('chaus');
+
+Route::get('/promotion', function () { return view('promotion'); })->name('prom');
+
+Route::get('/contact', function () { return view('contact'); })->name('contact');
+
+Route::get('/connect', function () { return view('connect'); })->name('connect');

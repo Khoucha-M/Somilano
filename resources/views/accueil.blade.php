@@ -11,15 +11,16 @@
 <div class="top-bar">
     <div class="top-bar-left">
         <ul class="menu">
-            <li class="menu-text">Contactez-nous</li>
+            <li><a href="{{route('contact')}}">Contactez-nous</a></li>
+            <li><a href="{{route('connect')}}">Se Connecte</a></li>
         </ul>
     </div>
     <div class="top-bar-right">
         <ul class="menu">
-            <li><a href="#">Vetement</a></li>
-            <li><a href="#">Nouveaute</a></li>
-            <li><a href="#">Chaussure</a></li>
-            <li><a href="#">Promotion</a></li>
+            <li><a href="{{route('vet')}}">Vetement</a></li>
+            <li><a href="{{route('nouv')}}">Nouveaute</a></li>
+            <li><a href="{{route('chaus')}}">Chaussure</a></li>
+            <li><a href="{{route('prom')}}">Promotion</a></li>
         </ul>
     </div>
 </div>
