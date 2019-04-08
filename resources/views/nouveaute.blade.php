@@ -1,9 +1,8 @@
-
 @extends('layouts.template')
 
 @section('content')
 <div class="row column text-center">
-    <h2>Viiiites Nouveau produits </h2>
+    <h2>Viiiite Nouveaux produits </h2>
     <hr>
 </div>
 <div class="row small-up-2 medium-up-3 large-up-6">
