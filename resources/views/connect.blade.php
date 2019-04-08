@@ -17,10 +17,10 @@
     </div>
     <div class="top-bar-right">
         <ul class="menu">
+            <li><a href="{{route('accueil')}}">Accueil</a> </li>
             <li><a href="{{route('vet')}}">Vetement</a></li>
             <li><a href="{{route('nouv')}}">Nouveaute</a></li>
             <li><a href="{{route('chaus')}}">Chaussure</a></li>
-            <li><a href="{{route('prom')}}">Promotion</a></li>
         </ul>
     </div>
 </div>
@@ -28,10 +28,8 @@
 
 
 
-    <header class="page-header">
-        <h1>
-            Connectez-vous à votre compte
-        </h1>
+    <header class="page-header"style="text-align: center;">
+        <h1>Connectez-vous à votre compte</h1>
     </header>
 
 
@@ -121,40 +119,7 @@
 
 
 
-                    <div class="forgot-password">
-                        <a href="http://51.75.126.43/presta/recuperation-mot-de-passe" rel="nofollow">
-                            Mot de passe oublié ?
-                        </a>
-                    </div>
-                </section>
 
-
-                <footer class="form-footer text-sm-center clearfix">
-                    <input type="hidden" name="submitLogin" value="1">
-
-                    <button id="submit-login" class="btn btn-primary" data-link-action="sign-in" type="submit">
-                        Connexion
-                    </button>
-
-                </footer>
-
-
-            </form>
-
-
-        </section>
-        <hr>
-
-
-
-        <div class="no-account">
-            <a href="http://51.75.126.43/presta/connexion?create_account=1" data-link-action="display-register-form">
-                Pas de compte ? Créez-en un
-            </a>
-        </div>
-
-
-    </section>
 
 
 

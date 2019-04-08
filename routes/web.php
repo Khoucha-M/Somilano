@@ -21,8 +21,8 @@ Route::get('/nouveaute', function () { return view('nouveaute'); })->name('nouv'
 
 Route::get('/chaussure', function () { return view('chaussure'); })->name('chaus');
 
-Route::get('/promotion', function () { return view('promotion'); })->name('prom');
-
 Route::get('/contact', function () { return view('contact'); })->name('contact');
 
 Route::get('/connect', function () { return view('connect'); })->name('connect');
+
+Route::get('/accueil', function () { return view('accueil'); })->name('accueil');

@@ -23,46 +23,34 @@
         </ul>
     </div>
 </div>
-<div class="row column text-center">
-    <h2>great product</h2>
+
+<div class="row column text-center"style="color: black;font-size: small;">
+    <h2>Chaussures les plus  Populaire</h2>
     <hr>
 </div>
-<div class="row small-up-2 medium-up-3 large-up-6">
+<div class="row small-up-2 large-up-4">
     <div class="column">
-        <img class="thumbnail" src="https://scontent.fcdg1-1.fna.fbcdn.net/v/t45.5328-0/p180x540/41986901_2250015341736434_8810708774441451520_n.jpg?_nc_cat=102&_nc_ht=scontent.fcdg1-1.fna&oh=1a3e78409f44fe3fc939e60834dba48b&oe=5D3C343C">
-        <h4>Pull  </h4>
-        <h6>Pull NOELIE Pull tout doux gris</h6>
-        <p>35€</p>
+        <img class="thumbnail" src="https://mosaic03.ztat.net/vgs/media/pdp-gallery/M3/21/1C/A0/MQ/11/M3211CA0M-Q11@12.jpg"style="height: 250px;width: 250px;">
+        <h5>Boots a talons </h5>
+        <p>49.00€</p>
     </div>
     <div class="column">
-        <img class="thumbnail" src="https://scontent.fcdg1-1.fna.fbcdn.net/v/t45.5328-0/p180x540/46366395_2238663149541336_8668510400205029376_n.jpg?_nc_cat=104&_nc_ht=scontent.fcdg1-1.fna&oh=d5a7eedc6b3b92c479500522a3fadeac&oe=5D4DE58E">
-        <h4>Chemisier  </h4>
-        <h6>Chemisier Leo col lavallière couleurs terre, doublé </h6>
-        <p>25€</p>
+        <img class="thumbnail" src="https://mosaic04.ztat.net/vgs/media/pdp-gallery/RA/D1/1N/03/RQ/11/RAD11N03R-Q11@11.jpg"style="height: 250px;width: 250px;">
+        <h5>Stacise ottines a talons</h5>
+        <p>37.59.00€</p>
+
     </div>
     <div class="column">
-        <img class="thumbnail" src="https://scontent.fcdg1-1.fna.fbcdn.net/v/t45.5328-0/p180x540/41869230_1072430886214829_4570053693541449728_n.jpg?_nc_cat=100&_nc_ht=scontent.fcdg1-1.fna&oh=736990d780706a715576ff346978b930&oe=5D4F668F">
-        <h4>Pull  </h4>
-        <h6>Pull LALY pull couleur moutarde dos nu et detail sur les manches  </h6>
-        <p>34€</p>
+        <img class="thumbnail" src="https://mosaic04.ztat.net/vgs/media/pdp-zoom/TP/71/1N/09/ZQ/11/TP711N09Z-Q11@11.jpg"style="height: 250px;width: 250px;">
+        <h5>Mario western boot</h5>
+        <p>150.00€</p>
+
     </div>
     <div class="column">
-        <img class="thumbnail" src="https://scontent.fcdg1-1.fna.fbcdn.net/v/t45.5328-0/p180x540/41792794_2178633442210034_8705233440032686080_n.jpg?_nc_cat=108&_nc_ht=scontent.fcdg1-1.fna&oh=271c81be4f5858df0cea781262e4babb&oe=5D3CAF41">
-        <h4>Top  </h4>
-        <h5>Top noir dentelle doublee</h5>
-        <p>17€</p>
-    </div>
-    <div class="column">
-        <img class="thumbnail" src="https://scontent.fcdg1-1.fna.fbcdn.net/v/t45.5328-0/p180x540/46586770_1706731002765434_2019769295055093760_n.jpg?_nc_cat=109&_nc_ht=scontent.fcdg1-1.fna&oh=d4449a9e5eef35122419796fd7cc7205&oe=5D445D28">
-        <h4>Gilet  </h4>
-        <h5>Gilet tout doux à boule de sapin</h5>
-        <p>39€</p>
-    </div>
-    <div class="column">
-        <img class="thumbnail" src="https://scontent.fcdg1-1.fna.fbcdn.net/v/t45.5328-0/p180x540/41706064_1126053640853118_988033814578069504_n.jpg?_nc_cat=111&_nc_ht=scontent.fcdg1-1.fna&oh=2e527b9f4e8a7beaf71f8805a46092e2&oe=5D4571B2">
-        <h4>Top  </h4>
-        <h5>dentelle bleu marine </h5>
-        <p>17€</p>
+        <img class="thumbnail" src="https://mosaic04.ztat.net/vgs/media/pdp-gallery/KU/01/1N/00/DQ/11/KU011N00D-Q11@11.jpg"style="height: 250px;width: 250px;">
+        <h5>Rita Bottine a lacets</h5>
+        <p>229.00€</p>
+
     </div>
 </div>
 <div class="callout large secondary">
