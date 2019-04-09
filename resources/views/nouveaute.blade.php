@@ -6,6 +6,21 @@
     <hr>
 </div>
 <div class="row small-up-2 medium-up-3 large-up-6">
+
+    @foreach($produits as $produit)
+
+        <div class="column">
+        <img class="thumbnail" src="{{ $produit->image }}" style="height: 250px;width: 250px;">
+        <h5>{{ $produit->categorie->label }}</h5>
+        <p>{{ $produit->description }}</p>
+        <p>{{ $produit->prix }} €</p>
+    </div>
+
+    @endforeach
+
+</div>
+<!--
+<div class="row small-up-2 medium-up-3 large-up-6">
     <div class="column">
         <img class="thumbnail" src="https://mosaic04.ztat.net/vgs/media/pdp-zoom/M0/Q2/1C/15/ZQ/11/M0Q21C15Z-Q11@7.jpg">
         <h5>Chemisier</h5>
@@ -44,4 +59,5 @@
         <p>454.75€</p>
     </div>
 </div>
+ --!>
 @endsection

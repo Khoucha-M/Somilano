@@ -15,9 +15,10 @@ Auth::routes();
 
 Route::get('/', 'HomeController@show');
 
+
 Route::get('/vetement', function () { return view('vetement'); })->name('vet');
 
-Route::get('/nouveaute', function () { return view('nouveaute'); })->name('nouv');
+Route::get('/nouveaute','HomeController@new') ->name('nouv');
 
 Route::get('/chaussure', function () { return view('chaussure'); })->name('chaus');
 

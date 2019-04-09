@@ -18,4 +18,10 @@ class HomeController extends Controller
 
         return view('accueil')->with('produits', $produits);
     }
+    public function new()
+    {
+        $produits = Produit::where('nouveaute', 1)->get();
+
+        return view('nouveaute')->with('produits', $produits);
+    }
 }
