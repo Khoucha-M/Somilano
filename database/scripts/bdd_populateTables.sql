@@ -36,13 +36,13 @@ INSERT INTO `categorie` (`id`, `label`, `menu`) VALUES
 -- Contenu de la table `produit`
 --
 
-INSERT INTO `produit` (`id`, `categorie_id`, `description`, `prix`, `mis en avant`, `nouveaute`) VALUES
-(1, 1, 'Top noir dentelle doublee', 17, 1, 0),
+INSERT INTO `produit` (`id`, `categorie_id`, `description`, `prix`, `mis_en_avant`, `nouveaute`) VALUES
+(1, 1, 'Top noir dentelle doublee', 17, 0, 1),
 (2, 2, 'Pull LALY pull couleur moutarde dos nu et detail sur les manches', 34, 1, 0),
 (3, 3, 'Gilet tout doux à boule de sapin', 39, 1, 0),
 (4, 4, 'Leo col lavallière couleurs terre, doublé ', 25, 1, 0),
 (5, 5, 'boots a talon en cuir', 49, 1, 0),
-(6, 6, 'YUMMY - Escarpins à talons hauts', 26.99, 1, 0);
+(6, 6, 'YUMMY - Escarpins à talons hauts', 26.99, 0, 1);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

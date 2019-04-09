@@ -27,12 +27,19 @@
             <hr>
         </div>
         <div class="row small-up-2 large-up-4">
-            <div class="column">
-                <img class="thumbnail" src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/45750973_344566729637501_587354322669404160_n.jpg?_nc_cat=110&_nc_ht=scontent-cdg2-1.xx&oh=1adfa864aecf2612a6bba09100eeaa6e&oe=5D4B6B89"style="height: 250px;width: 250px;">
-                <h5>Robe</h5>
-                <p>robe rouge petiante</p>
-                <p>25.00€</p>
-            </div>
+
+            @foreach($produits as $produit)
+
+                <div class="column">
+                    <img class="thumbnail" src="{{ $produit->image }}" style="height: 250px;width: 250px;">
+                    <h5>{{ $produit->categorie->label }}</h5>
+                    <p>{{ $produit->description }}</p>
+                    <p>{{ $produit->prix }} €</p>
+                </div>
+
+            @endforeach
+
+            <!--
             <div class="column">
                 <img class="thumbnail" src="https://scontent-cdg2-1.xx.fbcdn.net/v/t45.5328-0/p180x540/46586770_1706731002765434_2019769295055093760_n.jpg?_nc_cat=109&_nc_ht=scontent-cdg2-1.xx&oh=e3bcdd7263104d773c0f9acc83293f98&oe=5D445D28"style="height: 250px;width: 250px;">
                 <h5>Gilet </h5>
@@ -52,8 +59,9 @@
                 <h5>Chemisier </h5>
                 <p>Chemisier ananas</p>
                 <p>29.00€</p>
-
             </div>
+            -->
+
         </div>
         <hr>
 <div style="text-align: center">

@@ -13,7 +13,7 @@
 
 Auth::routes();
 
-Route::get('/', function () { return view('accueil'); });
+Route::get('/', 'HomeController@show');
 
 Route::get('/vetement', function () { return view('vetement'); })->name('vet');
 
@@ -25,4 +25,4 @@ Route::get('/contact', function () { return view('contact'); })->name('contact')
 
 Route::get('/connect', function () { return view('connect'); })->name('connect');
 
-Route::get('/accueil', function () { return view('accueil'); })->name('accueil');
+Route::get('/accueil', 'HomeController@show')->name('accueil');

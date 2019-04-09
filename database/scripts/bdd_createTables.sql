@@ -43,7 +43,7 @@ CREATE TABLE `produit` (
   `categorie_id` int(11) NOT NULL,
   `description` varchar(255) DEFAULT NULL,
   `prix` float NOT NULL,
-  `mis en avant` tinyint(1) NOT NULL,
+  `mis_en_avant` tinyint(1) NOT NULL,
   `nouveaute` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 

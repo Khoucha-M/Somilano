@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-{
     /**
      * Display a listing of the resource.
      *
@@ -95,5 +94,4 @@ class ProductController extends Controller
         $category->delete();
         return back();
     }
-}
 }
