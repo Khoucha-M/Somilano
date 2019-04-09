@@ -32,34 +32,18 @@
     <div class="row">
         <div class="large-4 columns">
             <h5><strong>Nous trouver</strong></h5>
-            <p>m.me/somilano.conceptstore
-                Appeler 07 68 86 52 15</p>
+            <p>Appeler 07 68 86 52 15</p>
             <p>sophia@somilano.fr
-                http://somilano.fr
-                categories
-                Magasin de vêtements</p>
+                http://somilano.fr</p>
         </div>
         <div class="large-3 large-offset-2 columns">
             <ul class="menu vertical">
-                <li><p><strong>Notre société</strong></p></li>
-                <li><a href="#">
-                        Livraison
-                        Mentions légales
-                        Conditions d'utilisation
-                        A propos
-                        Paiement sécurisé
-                        Contactez-nous
-                        sitemap
-                        Magasins
 
-                    </a></li>
-
-            </ul>
         </div>
         <div class="large-3 columns">
             <ul class="menu vertical">
                 <li><a</li>
-                <img src="https://external-cdg2-1.xx.fbcdn.net/map_tile.php?v=1014&osm_provider=2&x=16770&y=11744&z=15&language=fr_FR" class="img-fluid" alt="Responsive image">
+
             </ul>
         </div>
     </div>

@@ -15,7 +15,7 @@
     <div class="column">
         <img class="thumbnail" src="https://scontent.fcdg1-1.fna.fbcdn.net/v/t45.5328-0/p180x540/46366395_2238663149541336_8668510400205029376_n.jpg?_nc_cat=104&_nc_ht=scontent.fcdg1-1.fna&oh=d5a7eedc6b3b92c479500522a3fadeac&oe=5D4DE58E">
         <h4>Chemisier  </h4>
-        <h6>Chemisier Leo col lavallière couleurs terre, doublé </h6>
+        <h6>Leo col lavallière couleurs terre, doublé </h6>
         <p>25€</p>
     </div>
     <div class="column">
