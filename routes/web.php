@@ -16,11 +16,11 @@ Auth::routes();
 Route::get('/', 'HomeController@show');
 
 
-Route::get('/vetement', function () { return view('vetement'); })->name('vet');
+Route::get('/vetement', 'CategorieController@vet')->name('vet');
 
 Route::get('/nouveaute','HomeController@new') ->name('nouv');
 
-Route::get('/chaussure', function () { return view('chaussure'); })->name('chaus');
+Route::get('/chaussure','CategorieController@chas')->name('chaus');
 
 Route::get('/contact', function () { return view('contact'); })->name('contact');
 
