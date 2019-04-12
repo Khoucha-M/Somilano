@@ -1,6 +1,7 @@
 @extends('layouts.template')
 
 @section('content')
+    <img src="https://somilano.fr/wp-content/uploads/2018/05/so-milano.png" class="img-fluid" alt="Responsive image">
 <div class="row column text-center">
     <h2>Viiiite Nouveaux produits </h2>
     <hr>
@@ -10,7 +11,8 @@
     @foreach($produits as $produit)
 
         <div class="column">
-        <img class="thumbnail" src="{{ $produit->image }}" style="height: 250px;width: 250px;">
+        <!--<img class="thumbnail" src="{{ $produit->image }}" style="height: 250px;width: 250px;">--!>
+            <a href="/details/{{$produit->id}}"><img class="thumbnail" src="{{ $produit->image }}" style="height: 250px;width: 250px;"></a>
         <h5>{{ $produit->categorie->label }}</h5>
         <p>{{ $produit->description }}</p>
         <p>{{ $produit->prix }} €</p>

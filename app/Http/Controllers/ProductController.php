@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Produit;
 use Illuminate\Http\Request;
+use Illuminate\Auth\Access\Response;
 
 class ProductController extends Controller
 {
@@ -13,32 +15,9 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $categories=Category::all();
+        $products = Produit::all();
 
-
-        return view('admin.category.index',compact(['categories','products']));
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        Category::create(['name'=>$request->name,'slug'=>str_slug($request->name)]);
-        return back();
+        return view('welcome')->with('products', $products);
     }
 
     /**
@@ -47,51 +26,10 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($categoryId=null)
+    public function show($id)
     {
-        if(!empty($categoryId)){
-            $products=Category::find($categoryId)->products;
-        }
-        $categories=Category::all();
+        $product = Produit::find($id);
 
-        return view('admin.category.index',compact(['categories','products']));
-
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        $category=Category::find($id);
-        $category->products()->delete();
-        $category->delete();
-        return back();
+        return view('detail')->with('product', $product);
     }
 }

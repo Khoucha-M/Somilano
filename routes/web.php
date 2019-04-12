@@ -27,3 +27,16 @@ Route::get('/contact', function () { return view('contact'); })->name('contact')
 Route::get('/connect', function () { return view('connect'); })->name('connect');
 
 Route::get('/accueil', 'HomeController@show')->name('accueil');
+
+
+Route::get('/details/{n}', 'ProductController@show')->where('n','[0-9]+')->name('details');
+
+Route::get('/panier', function () { return view('panier'); })->name('panier');
+
+Route::get('/test-contact', function () {
+    return new App\Mail\Contact([
+        'nom' => 'Durand',
+        'email' => 'durand@chezlui.com',
+        'message' => 'Je voulais vous dire que votre site est magnifique !'
+    ]);
+});

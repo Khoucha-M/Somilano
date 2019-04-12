@@ -31,7 +31,7 @@
             @foreach($produits as $produit)
 
                 <div class="column">
-                    <img class="thumbnail" src="{{ $produit->image }}" style="height: 250px;width: 250px;">
+                    <a href="/details/{{$produit->id}}"><img class="thumbnail" src="{{ $produit->image }}" style="height: 250px;width: 250px;"></a>
                     <h5>{{ $produit->categorie->label }}</h5>
                     <p>{{ $produit->description }}</p>
                     <p>{{ $produit->prix }} €</p>
